@@ -1,2 +1,1 @@
-# DEVOPS-Assign2
-DICE DEVOPS Assignment 2
+# DICE DEVOPS Assignment 2

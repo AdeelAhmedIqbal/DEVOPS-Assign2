@@ -1,0 +1,90 @@
+[
+    {
+        "Name": "my_network",
+        "Id": "d3158f9892e27c7d712c63265c8e7aa060b68284227c7b33492e4cc0fb010740",
+        "Created": "2023-08-16T16:10:25.4454334+05:00",
+        "Scope": "local",
+        "Driver": "bridge",
+        "EnableIPv6": false,
+        "IPAM": {
+            "Driver": "default",
+            "Options": {},
+            "Config": [
+                {
+                    "Subnet": "172.18.0.0/16",
+                    "Gateway": "172.18.0.1"
+                }
+            ]
+        },
+        "Internal": false,
+        "Attachable": false,
+        "Ingress": false,
+        "ConfigFrom": {
+            "Network": ""
+        },
+        "ConfigOnly": false,
+        "Containers": {
+            "bd76aed70a5ee710a53c7f7e6e7e72e3e38d13a8be46c615e8f36853d032cff3": {
+                "Name": "nginx_container",
+                "EndpointID": "cb250ca031cf71de821bd24eb85946d8e7d7aaaa158715136ba552dcf503dda8",
+                "MacAddress": "02:42:ac:12:00:02",
+                "IPv4Address": "172.18.0.2/16",
+                "IPv6Address": ""
+            },
+            "cfaa2f7f6c1e68f468ef78906784029c0f60cb2fa697db9037a579f2ffcd36ec": {
+                "Name": "httpd_container",
+                "EndpointID": "7ae0f7dfe40888dc5bd573dd95daa43b3c0a5a65fb66031e9cd46b5fb8d1e3e6",
+                "MacAddress": "02:42:ac:12:00:03",
+                "IPv4Address": "172.18.0.3/16",
+                "IPv6Address": ""
+            }
+        },
+        "Options": {},
+        "Labels": {}
+    }
+]
+[
+    {
+        "Name": "my_network",
+        "Id": "d3158f9892e27c7d712c63265c8e7aa060b68284227c7b33492e4cc0fb010740",
+        "Created": "2023-08-16T16:10:25.4454334+05:00",
+        "Scope": "local",
+        "Driver": "bridge",
+        "EnableIPv6": false,
+        "IPAM": {
+            "Driver": "default",
+            "Options": {},
+            "Config": [
+                {
+                    "Subnet": "172.18.0.0/16",
+                    "Gateway": "172.18.0.1"
+                }
+            ]
+        },
+        "Internal": false,
+        "Attachable": false,
+        "Ingress": false,
+        "ConfigFrom": {
+            "Network": ""
+        },
+        "ConfigOnly": false,
+        "Containers": {
+            "bd76aed70a5ee710a53c7f7e6e7e72e3e38d13a8be46c615e8f36853d032cff3": {
+                "Name": "nginx_container",
+                "EndpointID": "cb250ca031cf71de821bd24eb85946d8e7d7aaaa158715136ba552dcf503dda8",
+                "MacAddress": "02:42:ac:12:00:02",
+                "IPv4Address": "172.18.0.2/16",
+                "IPv6Address": ""
+            },
+            "cfaa2f7f6c1e68f468ef78906784029c0f60cb2fa697db9037a579f2ffcd36ec": {
+                "Name": "httpd_container",
+                "EndpointID": "7ae0f7dfe40888dc5bd573dd95daa43b3c0a5a65fb66031e9cd46b5fb8d1e3e6",
+                "MacAddress": "02:42:ac:12:00:03",
+                "IPv4Address": "172.18.0.3/16",
+                "IPv6Address": ""
+            }
+        },
+        "Options": {},
+        "Labels": {}
+    }
+]

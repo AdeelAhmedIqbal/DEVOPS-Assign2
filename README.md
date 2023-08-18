@@ -45,4 +45,24 @@ Verify that the "httpd" default page is accessible on your host machine at http:
 **Docker Container ls** 
 ![image](https://github.com/AdeelAhmedIqbal/DEVOPS-Assign2/assets/62285793/c0d0362e-50ec-479e-b494-5eb74c457c76)
 
+<hr>
+
+# Part 2: Multi-Container Application Deployment using Docker Compose
+### Docker compose up
+
+Use the **docker-compose up** command to build and run the application. Verify that the web application is accessible from a web browser and that the database is running
+
+![image](https://github.com/AdeelAhmedIqbal/DEVOPS-Assign2/assets/62285793/5821d79b-5571-4e27-94c8-daf4e2ac8a74)
+
+![image](https://github.com/AdeelAhmedIqbal/DEVOPS-Assign2/assets/62285793/da1d853e-ded6-4fa8-a2f9-ff500ce92cde)
+
+**Modify** the Docker file for the web application container to include a new feature
+
+![image](https://github.com/AdeelAhmedIqbal/DEVOPS-Assign2/assets/62285793/b7f4d119-2ecb-4488-8cb9-2cd4a0a7591f)
+
+### Implement a scaling strategy
+![image](https://github.com/AdeelAhmedIqbal/DEVOPS-Assign2/assets/62285793/ac7cdcc3-bbda-4f7e-9bdb-d89c9e124207)
+
+![image](https://github.com/AdeelAhmedIqbal/DEVOPS-Assign2/assets/62285793/bd6f7028-4647-4ebb-a8ff-b18e45d75e42)
+
 
